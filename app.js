@@ -37,6 +37,9 @@ function validarFormulario() {
         
         //Aqui va a usar la informacion para generar el certificado.
         generarCertificado();
+         setTimeout(() => {
+             generarCertificado();
+        }, 3000);
 }
 
 function mostrarAlerta(msg, tipo) {
@@ -72,6 +75,7 @@ function generarCertificado() {
         window.open('HL.html');
     }
 };
+
 
 
 
