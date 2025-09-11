@@ -1,4 +1,4 @@
-const formulario = document.querySelector('#formulario');
+/*const formulario = document.querySelector('#formulario');
 
 const objCert = {
     contractNo: "",
@@ -75,6 +75,7 @@ function generarCertificado() {
         window.open('HL.html');
     }
 };
+
 
 
 
