@@ -67,9 +67,10 @@ function generarCertificado() {
     localStorage.setItem( "type", objCert.type );
 
     if (localStorage.getItem('club') === 'AH') {
-        window.open('/HTML/AH.html');
+        window.open('/AH.html');
     } else {
-        window.open('/HTML/HL.html');
+        window.open('/HL.html');
     }
 };
+
 
