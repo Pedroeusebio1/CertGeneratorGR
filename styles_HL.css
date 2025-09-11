@@ -130,6 +130,7 @@
     -webkit-print-color-adjust: exact; /* Para Chrome, Safari */
     print-color-adjust: exact; /* Estándar */
   }
+
 }
 
 @media print {
@@ -142,7 +143,7 @@
   }
 
   @page {
-    size: A4;   /* o letter, según lo que uses */
+    size: letter;   /* o letter, según lo que uses */
     margin: 0;  /* sin márgenes del navegador */
   }
 
