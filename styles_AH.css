@@ -131,3 +131,25 @@
     print-color-adjust: exact; /* Estándar */
     }
 }
+
+@media print {
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-print-color-adjust: exact; /* asegura colores */
+  }
+
+  @page {
+    size: A4;   /* o letter, según lo que uses */
+    margin: 0;  /* sin márgenes del navegador */
+  }
+
+  /* Forzar todo el contenido en una sola página */
+  * {
+    page-break-before: avoid;
+    page-break-after: avoid;
+    page-break-inside: avoid;
+  }
+}
