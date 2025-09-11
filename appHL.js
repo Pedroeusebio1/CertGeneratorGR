@@ -23,8 +23,9 @@ if (localStorage.getItem('club') === 'HL') {
     setTimeout(() => {
 
     localStorage.clear();
-    window.location.href = '/index.html';
+    window.location.href = 'index.html';
     
     }, 3000);
 
 }
+
