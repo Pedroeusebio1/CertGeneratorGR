@@ -75,6 +75,7 @@ function generarCertificado() {
         window.open('HL.html');
     }
 };
+*/
 
 
 
