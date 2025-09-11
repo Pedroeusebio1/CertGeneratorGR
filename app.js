@@ -1,4 +1,4 @@
-/*const formulario = document.querySelector('#formulario');
+const formulario = document.querySelector('#formulario');
 
 const objCert = {
     contractNo: "",
@@ -35,10 +35,9 @@ function validarFormulario() {
 
         mostrarAlerta("Certificado generado exitosamente", "exito");
         
+         setTimeout(() => {
         //Aqui va a usar la informacion para generar el certificado.
         generarCertificado();
-         setTimeout(() => {
-             generarCertificado();
         }, 3000);
 }
 
@@ -75,9 +74,6 @@ function generarCertificado() {
         window.open('HL.html');
     }
 };
-*/
-
-
 
 
 
