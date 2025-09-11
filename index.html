@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Styles/Styles.css">
+    <link rel="icon" href="/Resources/logo.png">
+    <title>Formulario de regalo</title>
+</head>
+<body>
+    <div class="header">
+        <div class="header-container">
+            <div class="header-image-container">
+                <img src="/Resources/logo.png" alt="" class="header-img">
+            </div>
+            <h1 class="header-title">4/3 Certificates</h1>
+            <p class="header-details">Complete the form to generate a new certificate</p>
+        </div>
+    </div>
+    <div class="container-form">
+        <form id="formulario" action="">
+            <div class="container-input">
+                <input placeholder="Introduzca el Contract No" type="text" id="contract_no" name="contract_no">
+            </div>
+            <div class="container-input">
+                <input type="text" id="owner" placeholder="Owner Name" name="Owner">
+            </div>
+            <div class="container-input">
+                <input type="text" id="spouse" placeholder="Spouse Name" name="Spouse">
+            </div>
+            <div class="container-input">
+                <select name="club" id="club">
+                    <option value="" selected disabled>Select Club</option>
+                    <option value="AH" >Ascendant Holidays LLC</option>
+                    <option value="HL" >Holidays Lounge LLC</option>
+                </select>
+            </div>
+            <div class="container-input">
+                <select name="type" id="type">
+                    <option value="" selected disabled>Select Type</option>
+                    <option value="# 4-3GR-MSR" >Member</option>
+                    <option value="# 4-3GR-AMB" >Ambassador</option>
+                </select>
+            </div>
+                <button class="btnSubmit" type="submit" id="btnSubmit">
+                    GENERATE CERTIFICATE
+                </button>
+        </form>
+    </div>
+    <script type="module" src="/JavaScript/app.js"></script>
+</body>
+</html>

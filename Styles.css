@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.header-image-container{
+    margin-top: 25px;
+}
+
+.header-img{
+    width: 250px;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(180, 230, 193);
+    font-size: large;
+}
+
+.header{
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.container-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-input input{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    font-size: large;
+}
+
+.container-form select{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    font-size: large;
+}
+
+.btnSubmit{
+    margin-top: 10px;
+    display: block;
+    width: 250px;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.header-title{
+    font-size: 50px;
+}
+
+.header-details{
+    font-size: 25px;
+    
+}
+
+.error{
+    display: flex;
+    margin-top: 20px;
+    background-color: red;
+    width: 320px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-weight: 700;
+    border-radius: 7px;
+}
+
+.exito{
+    display: flex;
+    margin-top: 20px;
+    background-color: green;
+    width: 320px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-weight: 700;
+    border-radius: 7px;
+}
